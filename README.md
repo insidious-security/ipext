@@ -10,8 +10,8 @@ $ git clone https://github.com/insidious-security/ipext.git
 #Compile the code
 $ gcc -fno-stack-protector -z execstack ipext.c -o ipext
 
-#Move the bin to /usr/bin
-sudo mv ipext /usr/bin
+#Move the bin to /usr/bin/
+sudo mv ipext /usr/bin/
 
 #Execute
 $ ipext
